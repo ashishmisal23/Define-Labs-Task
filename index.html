@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="script/script.js"></script>
+
+</head>
+
+<body>
+    <header class="bg-dark">
+        <div class="container d-flex justify-content-between py-2">
+            <div class="text-white">Mon- Sat 08.00 - 18.00. Sunday CLOSED</div>
+            <div class="text-white">Tel. No. (+001) 123-456-789</div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="Tycoon Logo" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto menu" id="menu">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            ABOUT US
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">COMPANY</a>
+                            <a class="dropdown-item" href="#">OUR TEAM</a>
+                            <a class="dropdown-item" href="#">NEWS</a>
+                            <a class="dropdown-item" href="#">INVESTORS</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PRICING</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="slider slide1" id="sectionBanner">
+        <div class="slider-1-text container">
+            <h1>INNOVATION</h1>
+            <h6>We Create Opportunities</h6>
+        </div>
+    </section>
+
+    <section class="bg-primary" id="section-2">
+        <div class="container">
+            <div class="section-2-container">
+                <div class="col-md-10 col-sm-9 ">
+                    <h3>Partner with Business Leaders</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam,
+                        incidunt eius magni provident, doloribus omnis minus temporibus perferendis nesciunt quam
+                        repellendus nulla nemo ipsum odit corrupti</p>
+                </div>
+                <div class="col-md-2 col-sm-3">
+                    <button class="btn btn-primary" id="readMoreBtn">Read More</button>
+                </div>
+
+                <div id="popup" class="popup">
+                    <div class="container">
+
+                        <h2>Welcome</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptates hic reiciendis
+                            temporibus accusamus vero asperiores quia, porro voluptatem, culpa dolores quo. Vitae, in
+                            atque. Cumque illum vel est autem!</p>
+                    </div>
+                    <button id="closePopupBtn" class="btn btn-danger">Close</button>
+                </div>
+                <div id="overlay" class="overlay"></div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="section-3">
+        <div class="container">
+            <div class="section-3-container">
+                <h3>OUR SERVICES</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis provident cumque nihil dolorum
+                    magni deleniti facilis debitis eius ipsum repellat tempore quia rem laudantium, dolores excepturi
+                    architecto? Quo, ipsa sunt?</p>
+            </div>
+        </div>
+        <div class="container services ">
+            <div class="service">
+                <div class="service-img">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#00bcd4" class="bi bi-bell"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4 4 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4 4 0 0 0-3.203-3.92zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5 5 0 0 1 13 6c0 .88.32 4.2 1.22 6" />
+                    </svg>
+                </div>
+                <div class="service-txt">
+                    <h3>Consulting</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam,
+                        incidunt</p>
+                </div>
+            </div>
+            <div class="service">
+                <div class="service-img">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#00bcd4" class="bi bi-hdd"
+                        viewBox="0 0 16 16">
+                        <path d="M4.5 11a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1M3 10.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0" />
+                        <path
+                            d="M16 11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V9.51c0-.418.105-.83.305-1.197l2.472-4.531A1.5 1.5 0 0 1 4.094 3h7.812a1.5 1.5 0 0 1 1.317.782l2.472 4.53c.2.368.305.78.305 1.198zM3.655 4.26 1.592 8.043Q1.79 8 2 8h12q.21 0 .408.042L12.345 4.26a.5.5 0 0 0-.439-.26H4.094a.5.5 0 0 0-.44.26zM1 10v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1" />
+                    </svg>
+
+                </div>
+                <div class="service-txt">
+                    <h3>Strategy</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam,
+                        incidunt</p>
+                </div>
+
+            </div>
+            <div class="service">
+                <div class="service-img">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#00bcd4"
+                        class="bi bi-lightbulb" viewBox="0 0 16 16">
+                        <path
+                            d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1" />
+                    </svg>
+
+
+                </div>
+                <div class="service-txt">
+                    <h3>Analysis</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam,
+                        incidunt</p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <section id="section-4">
+        <div class="img-half half-section">
+
+
+        </div>
+        <div class="half-section">
+            <div class="our-team-text">
+                <h3>Our Team</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit. Duis eu libero scelerisque ligula sagittis faucibus eget quis lacus.Lorem ipsum dolor sit
+                    amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <p>Duis eu libero scelerisque ligula sagittis faucibus eget quis lacus.Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
+
+            <button type="button" class="btn btn-primary">Our Portfolio</button>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container-1">
+            <div class="container">
+                <div class="column">
+                    <div class="heading">Our Contact</div>
+                    <div class="sub-heading">
+                        <ul>
+                            <li>Bootstrap company Inc</li>
+                            <li>JC Main Road, Near Silnile tower</li>
+                            <li>Pin-21542 NewYork US.</li>
+                            <li>(123) 456-789 - 1255-12584</li>
+                            <li>email@domainname.com</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="heading">Quick Links</div>
+                    <div>
+                        <ul class="sub-heading">
+                            <li> <a href="#">Latest Events</a> </li>
+                            <li> <a href="#">Terms and conditions</a> </li>
+                            <li> <a href="#">Privacy Policy</a> </li>
+                            <li> <a href="#">Career</a> </li>
+                            <li> <a href="#">Contact Us</a> </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="heading">Latest posts</div>
+                    <div>
+                        <ul class="sub-heading">
+                            <li>
+                                <a href="#">
+                                    Repudiandae dolor ipsa obcaecati temporibus vero labore minus alias, natus ab hic
+                                    cupiditate ipsum?
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+
+                                    x Quis, nemo. Sed eaque blanditiis
+                                    perferendis corporis illum.
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Repudiandae dolor ipsa obcaecati temporibus vero labore minus alias, natus ab hic
+                                    cupiditate ipsum?
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="heading">Recent News</div>
+                    <div>
+                        <ul class="sub-heading">
+                            <li>
+                                <a href="#">
+                                    Repudiandae dolor ipsa obcaecati temporibus vero labore minus alias, natus ab hic
+                                    cupiditate ipsum?
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+
+                                    x Quis, nemo. Sed eaque blanditiis
+                                    perferendis corporis illum.
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Repudiandae dolor ipsa obcaecati temporibus vero labore minus alias, natus ab hic
+                                    cupiditate ipsum?
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </footer>
+    <div class="sub-footer">
+        <div class="container">
+
+            <div class="text">
+                <p>© Bootstrap Template 2018 All right reserved.</p>
+            </div>
+
+            <ul class="social-network">
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff" class="bi bi-facebook"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                    </svg>
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-pinterest"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0" />
+                    </svg>
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-twitter-x"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                    </svg>
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-linkedin"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                    </svg>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
